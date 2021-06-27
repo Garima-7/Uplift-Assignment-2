@@ -1,0 +1,28 @@
+.first img {
+    transform: scale(1.1);
+}
+
+.second {
+    background-image: url('./stefan-stefancik-5p_7M5MP2Iw-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.second ul li::before {
+    content: ' ✓ ';
+    color: green;
+    font-weight: bolder;
+}
+
+form * {
+    margin-bottom: 5px;
+}
+
+.foot {
+    list-style-type: none;
+}
+
+.foot li a {
+    color: white;
+    text-decoration: none;
+}
